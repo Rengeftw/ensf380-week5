@@ -11,7 +11,7 @@ public class Car {
         this.engine = engine;
     }
 
-    public Car copy(boolean deepCopy) throws CloneNotSupportedException {
+    public Car copy(boolean deepCopy) {
         if (deepCopy) {
             return new Car(model, new Driver(driver.getName), new Engine(engine.getEngineType));
         } else {
