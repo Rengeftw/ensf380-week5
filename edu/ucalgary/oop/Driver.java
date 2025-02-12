@@ -11,7 +11,7 @@ public class Driver {
         this.name = other.name;
     }
 
-    public String getname() {
+    public String getName() {
         return this.name;
     }
 

@@ -13,7 +13,7 @@ public class Car {
 
     public Car copy(boolean deepCopy) {
         if (deepCopy) {
-            return new Car(model, new Driver(driver.getName), new Engine(engine.getEngineType));
+            return new Car(model, new Driver(driver.getName()), new Engine(engine.getEngineType()));
         } else {
             return this;
         }
